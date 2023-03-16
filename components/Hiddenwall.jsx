@@ -42,7 +42,7 @@ const Hiddenwall = () => {
             background: 'transparent',
             position: 'fixed',
             left: '20px',
-            bottom: '0.01cm', 
+            bottom: '20px', 
             display: comment && 'none',      
        }}
        onClick= {() => setIsDrawerOpen(true)}
