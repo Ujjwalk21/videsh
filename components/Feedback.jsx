@@ -14,7 +14,7 @@ const Feedback = ({data}) => {
             outline:'1px solid red',
             borderRadius: '10px',
             padding: '10px',
-            marginX: '20px',
+            marginX: 'auto',
             marginY: '10px',
             }}>
             <Box
