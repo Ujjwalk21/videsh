@@ -39,12 +39,10 @@ const Hiddenwall = () => {
         <>
         <Box
         sx={{
-            outline: "1px solid black",
-            background: '#F9F7F7',
-            outlineOffset: "8px",
+            background: 'transparent',
             position: 'fixed',
-            left: '5%',
-            top: '85%', 
+            left: '20px',
+            bottom: '0.01cm', 
             display: comment && 'none',      
        }}
        onClick= {() => setIsDrawerOpen(true)}
@@ -142,7 +140,7 @@ const Hiddenwall = () => {
                         outline:'1px solid red',
                         borderRadius: '10px',
                         padding: '10px',
-                        marginX: '20px',
+                        marginX: 'auto',
                         marginY: '10px',
                     }}>
                     <Typography component="legend" variant="h5" sx={{color:'black', }}>Rating</Typography>
